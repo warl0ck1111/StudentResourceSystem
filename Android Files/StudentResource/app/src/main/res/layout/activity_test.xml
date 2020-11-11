@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Activities.TestActivity">
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="wrap_content"
+        android:paddingBottom="16dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingBottom="16dp"
+
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingBottom="16dp"
+
+        android:text="Name"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <EditText
+        android:id="@+id/edPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingBottom="16dp"
+
+        android:text="Name"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/tvError"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+
+        android:id="@+id/send"
+        android:background="@color/colorAccent"
+        android:text="Send"/>
+</LinearLayout>

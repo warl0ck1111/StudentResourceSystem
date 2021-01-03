@@ -1,11 +1,17 @@
 MOBILE STUDENT ERESOURCE SYSTEM
+The Student E-Resource System is a platform for students to be able to gain quick and easy
+access to digital study materials. It is a mobile application which is developed in Android Studio in
+Java and leverages the Spring framework to handle resource file sharing between users and the database at the backend.
+
+BACKEND
+	SPRINGBOOT, HIBERNATE, MYSQL
 
 FRONT END
  IDE USED:ANDROID STUDIO VERSION 3.0.1
 	GRADLE VERSION 5.1
 	minSdkVersion 16
 	targetSdkVersion 28
- DEPENDENCIES:
+ DEPENDENCIES (Gradle):
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     implementation 'com.android.support:design:28.0.0'
@@ -19,7 +25,7 @@ BACK END:
 
 IDE USED: NETBEANS VERSION 8.1
 
-DEPENDENCIES:
+DEPENDENCIES (Maven):
 	org.springframework.boot
         spring-boot-starter-data-jpa
 	spring-boot-starter-web
